@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.1.1">
   <diagram name="第 1 页" id="wOX861sB1Mfo9-PRwPlO">
-    <mxGraphModel dx="2703" dy="790" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1818" dy="756" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="NdlnKQ3F5qfM2t-CQJyK-172" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="490" width="741" x="-47" y="3118" as="geometry" />
+        </mxCell>
         <mxCell id="NdlnKQ3F5qfM2t-CQJyK-47" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="336" width="380" x="474" y="1202" as="geometry" />
         </mxCell>
@@ -411,6 +414,77 @@
         </mxCell>
         <mxCell id="NdlnKQ3F5qfM2t-CQJyK-145" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="递归处理补充后的子孙节点" vertex="1">
           <mxGeometry height="39" width="176" x="453" y="3017.5" as="geometry" />
+        </mxCell>
+        <mxCell id="NdlnKQ3F5qfM2t-CQJyK-152" edge="1" parent="1" source="NdlnKQ3F5qfM2t-CQJyK-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="NdlnKQ3F5qfM2t-CQJyK-149">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NdlnKQ3F5qfM2t-CQJyK-147" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;查询出当前节点导入前的所有子节点并遍历&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="35" width="148" x="232.5" y="3130" as="geometry" />
+        </mxCell>
+        <mxCell id="NdlnKQ3F5qfM2t-CQJyK-148" edge="1" parent="1" source="NdlnKQ3F5qfM2t-CQJyK-144" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="NdlnKQ3F5qfM2t-CQJyK-147" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="310" y="3088" as="sourcePoint" />
+            <mxPoint x="315" y="3145" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NdlnKQ3F5qfM2t-CQJyK-153" edge="1" parent="1" source="NdlnKQ3F5qfM2t-CQJyK-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="NdlnKQ3F5qfM2t-CQJyK-151">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NdlnKQ3F5qfM2t-CQJyK-156" edge="1" parent="1" source="NdlnKQ3F5qfM2t-CQJyK-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="NdlnKQ3F5qfM2t-CQJyK-158">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="335" y="3400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NdlnKQ3F5qfM2t-CQJyK-149" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="本次导入数据中&lt;div&gt;是否有该子节点&lt;/div&gt;" vertex="1">
+          <mxGeometry height="109" width="159" x="228.5" y="3197" as="geometry" />
+        </mxCell>
+        <mxCell id="NdlnKQ3F5qfM2t-CQJyK-151" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="构造纯数据库节点，后续处理中仅更新parents等字段" vertex="1">
+          <mxGeometry height="65" width="147" x="482" y="3219" as="geometry" />
+        </mxCell>
+        <mxCell id="NdlnKQ3F5qfM2t-CQJyK-154" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="无" vertex="1">
+          <mxGeometry height="30" width="60" x="384" y="3218" as="geometry" />
+        </mxCell>
+        <mxCell id="NdlnKQ3F5qfM2t-CQJyK-165" edge="1" parent="1" source="NdlnKQ3F5qfM2t-CQJyK-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="NdlnKQ3F5qfM2t-CQJyK-164">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NdlnKQ3F5qfM2t-CQJyK-169" edge="1" parent="1" source="NdlnKQ3F5qfM2t-CQJyK-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="NdlnKQ3F5qfM2t-CQJyK-168">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NdlnKQ3F5qfM2t-CQJyK-155" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="该子节点是否&lt;div&gt;变更了父级&lt;/div&gt;&lt;div&gt;或变更为根节点&lt;/div&gt;" vertex="1">
+          <mxGeometry height="109" width="159" x="229" y="3487" as="geometry" />
+        </mxCell>
+        <mxCell id="NdlnKQ3F5qfM2t-CQJyK-157" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="有" vertex="1">
+          <mxGeometry height="30" width="60" x="290" y="3303" as="geometry" />
+        </mxCell>
+        <mxCell id="NdlnKQ3F5qfM2t-CQJyK-161" edge="1" parent="1" source="NdlnKQ3F5qfM2t-CQJyK-158" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="NdlnKQ3F5qfM2t-CQJyK-159">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NdlnKQ3F5qfM2t-CQJyK-163" edge="1" parent="1" source="NdlnKQ3F5qfM2t-CQJyK-158" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="NdlnKQ3F5qfM2t-CQJyK-155">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NdlnKQ3F5qfM2t-CQJyK-158" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="导入中该子节点&lt;div&gt;是否存在错误数据&lt;/div&gt;" vertex="1">
+          <mxGeometry height="109" width="159" x="229" y="3340" as="geometry" />
+        </mxCell>
+        <mxCell id="NdlnKQ3F5qfM2t-CQJyK-159" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="存在错误数据，认为本次导入更新不作数。&lt;div&gt;1、直接将该子节点挂在当前节点下&lt;/div&gt;&lt;div&gt;2、若该子节点原来为临时根节点，则需要冲临时根节点剔除，避免树形错误。&lt;/div&gt;" vertex="1">
+          <mxGeometry height="104" width="207" x="457" y="3342" as="geometry" />
+        </mxCell>
+        <mxCell id="NdlnKQ3F5qfM2t-CQJyK-162" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="有" vertex="1">
+          <mxGeometry height="30" width="60" x="378" y="3354" as="geometry" />
+        </mxCell>
+        <mxCell id="NdlnKQ3F5qfM2t-CQJyK-164" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="变更了父级，则应该以变更后为准，这里不做处理，处理其祖先节点时会处理到该节点" vertex="1">
+          <mxGeometry height="104" width="207" x="457.5" y="3489" as="geometry" />
+        </mxCell>
+        <mxCell id="NdlnKQ3F5qfM2t-CQJyK-166" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="无" vertex="1">
+          <mxGeometry height="30" width="60" x="293" y="3450" as="geometry" />
+        </mxCell>
+        <mxCell id="NdlnKQ3F5qfM2t-CQJyK-167" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="时" vertex="1">
+          <mxGeometry height="30" width="60" x="377" y="3506" as="geometry" />
+        </mxCell>
+        <mxCell id="NdlnKQ3F5qfM2t-CQJyK-168" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="未变更父级，若该子节点之前为临时根节点，则需要将该子节点挂在当前节点下，并从临时根节点中剔除" vertex="1">
+          <mxGeometry height="68" width="207" x="-27" y="3508" as="geometry" />
+        </mxCell>
+        <mxCell id="NdlnKQ3F5qfM2t-CQJyK-170" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="否" vertex="1">
+          <mxGeometry height="30" width="60" x="178" y="3507" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
